@@ -1,0 +1,34 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    padding: 20px;
+    display: flex;
+    z-index: 100;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.447), rgba(0, 0, 0, 0));
+    z-index: -1;
+  }
+
+.nf-logo{
+    width: 100px;
+    position: fixed;
+    left: 20px;
+
+}
+
+.avatar{
+    position: fixed;
+    right: 20px;
+    width: 36px;
+}
